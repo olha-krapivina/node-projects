@@ -1,12 +1,16 @@
-function carouselSliderLeft() {
+import { cart } from "./cart";
+
+cart();
+
+function count() {
+    console.log("I'm count");
+}
+
+export function carouselSliderLeft() {
+    count();
     console.log("---carousel left");
 }
 
-function carouselSliderRight() {
+export function carouselSliderRight() {
     console.log("---carousel right");
 }
-
-module.exports = {
-    carouselSliderLeft,
-    carouselSliderRight
-};

@@ -1,4 +1,4 @@
-const { carouselSliderLeft, carouselSliderRight } = require("./carousel");
+import { carouselSliderLeft, carouselSliderRight } from "./carousel";
 
 carouselSliderLeft();
 carouselSliderRight();
