@@ -1,4 +1,9 @@
-import { carouselSliderLeft, carouselSliderRight } from "./carousel";
+import "./main.css";
 
-carouselSliderLeft();
-carouselSliderRight();
+import { Slider } from "./slider";
+
+// const { slideRight, slideLeft } = Slider();
+
+// console.log(slideRight, slideLeft);
+
+Slider();

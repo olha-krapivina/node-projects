@@ -1,0 +1,37 @@
+#slider {
+    background: cadetblue;
+    border: 1px solid;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+
+    transition: .5s;
+}
+
+.slide-left,
+.slide-right {
+    position: absolute;
+    top: 40%;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+
+    cursor: pointer;
+}
+
+.slide-left:hover,
+.slide-right:hover {
+    background: yellow;
+}
+
+.slide-left {
+    left: 5px;
+}
+
+.slide-right {
+    right: 5px;
+}
